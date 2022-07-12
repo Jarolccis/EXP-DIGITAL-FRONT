@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "exp-digital-frontend": {
+    "exp-digital-front": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/exp-digital-frontend",
+            "outputPath": "dist/exp-digital-front",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -75,10 +75,10 @@
     
           "configurations": {
             "production": {
-              "browserTarget": "exp-digital-frontend:build:production"
+              "browserTarget": "exp-digital-front:build:production"
             },
             "development": {
-              "browserTarget": "exp-digital-frontend:build:development"
+              "browserTarget": "exp-digital-front:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -86,7 +86,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "exp-digital-frontend:build"
+            "browserTarget": "exp-digital-front:build"
         
           }
         },
