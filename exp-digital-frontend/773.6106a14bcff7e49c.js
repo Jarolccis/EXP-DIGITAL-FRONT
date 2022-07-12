@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkexp_digital_frontend=self.webpackChunkexp_digital_frontend||[]).push([[773],{9773:(E,t,o)=>{o.r(t),o.d(t,{ProductLocationModule:()=>_});var d=o(6895),u=o(433),l=o(334),a=o(8256);let _=(()=>{class n{}return n.\u0275fac=function(r){return new(r||n)},n.\u0275mod=a.oAB({type:n}),n.\u0275inj=a.cJS({imports:[d.ez,u.UX,u.u5,l.ef]}),n})()}}]);
