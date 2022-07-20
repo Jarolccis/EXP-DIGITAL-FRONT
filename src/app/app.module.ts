@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 // Import library module
 import { NgxSpinnerModule } from "ngx-spinner";
+import { ToastrModule } from 'ngx-toastr';
 
 
 
@@ -24,7 +25,15 @@ import { NgxSpinnerModule } from "ngx-spinner";
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    ToastrModule.forRoot(
+      {
+        progressBar:false,
+        positionClass:'toast-top-right',
+        closeButton:false,
+        timeOut:5000
+      }
+    ), 
     
    
   

@@ -26,9 +26,15 @@ export class SearchService {
       country: headers['x-country'],
       product_description: product_description,
     };
-
-    return this.http.post(this.URL_EXP_DIGITAL_TDA + '/checklocation', body, {
-      headers,
-    });
+    const res = this.http.post(
+      this.URL_EXP_DIGITAL_TDA + '/checklocation',
+      body,
+      {
+        headers,
+      }
+    );
+console.log("SERRES", res)
+  
+    return res;
   }
 }

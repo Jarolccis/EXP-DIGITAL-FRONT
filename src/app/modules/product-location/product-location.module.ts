@@ -5,6 +5,7 @@ import { SearchProductComponent } from './pages/search-product/search-product.co
 import {ReactiveFormsModule} from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { NgxSpinnerModule } from "ngx-spinner";
+import { ToastrModule } from 'ngx-toastr';
 
 
 
@@ -20,6 +21,7 @@ import { NgxSpinnerModule } from "ngx-spinner";
     ReactiveFormsModule,
     FormsModule,
     NgxSpinnerModule,
+    ToastrModule.forRoot()
     
   ]
 })

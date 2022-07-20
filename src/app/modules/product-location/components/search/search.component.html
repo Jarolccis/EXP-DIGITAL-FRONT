@@ -6,6 +6,7 @@
     placeholder="Buscar producto"
     aria-label="Search"
     aria-describedby="search-addon"
+    id="searchB"
   />
   <button *ngIf="!isLoading"  type="button" class="btn btn-success" (click)="searchProduct()">
     <svg
@@ -66,7 +67,7 @@
     <p class="card-text titleCard">
       Ubicación 
     
-        <strong> Pasillo {{ pasillo }}</strong>    
+        <strong>  {{ pa_sec + ' ' + pasillo }}</strong>    
      
     </p>
 
